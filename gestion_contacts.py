@@ -102,6 +102,7 @@ def Quit5():
 
 def menu():
     os.system("cls")
+    os.system("clear")
     print("Menu principal\n1 - Regarder les contacts\n2 - Ajouter un contact\n3 - Supprimer un contact\n4 - Modifier un contact\n5 - Quitter\n"+60*'/')
     choix_menu = input("Votre choix : ")
     
